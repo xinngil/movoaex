@@ -1,0 +1,15 @@
+{
+  "name": "MOVIX",
+  "short_name": "MOVIX",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050713",
+  "theme_color": "#060816",
+  "icons": [
+    {
+      "src": "/assets/logo.svg",
+      "sizes": "128x128",
+      "type": "image/svg+xml"
+    }
+  ]
+}
