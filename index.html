@@ -1,27 +1,174 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movix</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#060816" />
+  <meta name="description" content="Movix — un ecosistema digital de personas, ideas, proyectos y oportunidades." />
+  <meta property="og:title" content="MOVIX — Beta 0.1V" />
+  <meta property="og:description" content="Tu ecosistema. Tu futuro. Tus posibilidades." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://movix.red/" />
+  <link rel="icon" href="/assets/logo.svg" type="image/svg+xml" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="canonical" href="https://movix.red/" />
+  <link rel="stylesheet" href="/styles.css" />
+  <title>MOVIX — Beta 0.1V</title>
 </head>
 <body>
-    <header>
-        <img src="assets/logo.svg" alt="Movix Logo" class="logo">
-        <nav>
-            <a href="#xilos">Xilos</a>
-            <a href="#xync">Xync</a>
-            <a href="#xplorex">Xplorex</a>
-            <a href="#market">Market</a>
-            <a href="#ride">Ride</a>
-            <a href="#panel">Panel</a>
-        </nav>
-    </header>
-    <main id="content">
-        <h1>Bienvenido a Movix</h1>
-        <p>Tu ecosistema de transporte, comercio y conexión.</p>
-    </main>
-    <script src="app.js"></script>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="aurora aurora-a" aria-hidden="true"></div>
+  <div class="aurora aurora-b" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Movix inicio">
+      <span class="brand-mark">∞</span>
+      <span>MOVIX</span>
+    </a>
+    <nav class="nav">
+      <a href="#ecosistema">Ecosistema</a>
+      <a href="#modulos">Módulos</a>
+      <a href="#beta">Beta</a>
+    </nav>
+    <a class="mini-cta" href="#descargar">Android</a>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero shell">
+      <div class="eyebrow">MOVIX · BETA 0.1V</div>
+      <h1>Tu ecosistema.<br><span>Todo conectado.</span></h1>
+      <p class="hero-copy">
+        Personas, ideas, proyectos y oportunidades en una experiencia digital pensada para acompañarte, ayudarte a avanzar y conectar lo importante.
+      </p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#descargar">Descargar para Android</a>
+        <a class="btn ghost" href="#ecosistema">Conocer Movix</a>
+      </div>
+      <div class="launch">
+        <div>
+          <span class="launch-label">Lanzamiento objetivo</span>
+          <strong>22 · 09 · 2026 — 14:22</strong>
+        </div>
+        <div id="countdown" class="countdown" aria-live="polite">Preparando lanzamiento…</div>
+      </div>
+    </section>
+
+    <section id="ecosistema" class="shell section">
+      <div class="section-head">
+        <span class="eyebrow">UN SOLO ECOSISTEMA</span>
+        <h2>Movix no es una sola app.</h2>
+        <p>Es una capa digital que reúne herramientas, comunidad, exploración y creación dentro de una misma identidad.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature">
+          <span class="icon">✦</span>
+          <h3>Xilo</h3>
+          <p>Asistencia y acompañamiento dentro de Movix para ayudarte a orientarte, organizarte y avanzar.</p>
+        </article>
+        <article class="feature">
+          <span class="icon">◉</span>
+          <h3>Plaza</h3>
+          <p>El espacio social del ecosistema para descubrir, compartir y conectar contenido y comunidad.</p>
+        </article>
+        <article class="feature">
+          <span class="icon">⌁</span>
+          <h3>Mapa</h3>
+          <p>Una capa para explorar lugares, experiencias y movimiento dentro del ecosistema Movix.</p>
+        </article>
+        <article class="feature">
+          <span class="icon">↗</span>
+          <h3>Más módulos</h3>
+          <p>Xync, Archivo, Cámara, Game Mode, Ride, Tours, Studio, Educación, SafeXG, TouchFX y más.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="modulos" class="shell section">
+      <div class="section-head">
+        <span class="eyebrow">VERSIÓN 0.1V</span>
+        <h2>Lo que entra ahora.</h2>
+        <p>La beta publica únicamente lo que esté listo para usarse. Lo que aún no corresponde mostrar permanece cerrado.</p>
+      </div>
+
+      <div class="module-list">
+        <article class="module ready">
+          <div>
+            <span class="status">ACTIVO EN 0.1V</span>
+            <h3>Ecosistema principal</h3>
+            <p>Navegación, experiencia visual y módulos disponibles de Movix integrados en la beta.</p>
+          </div>
+          <span class="badge">Disponible</span>
+        </article>
+
+        <article class="module locked">
+          <div>
+            <span class="status">PRÓXIMAMENTE</span>
+            <h3>Centro de juego</h3>
+            <p>Área reservada. Sin detalles públicos por ahora.</p>
+          </div>
+          <span class="lock" aria-label="Bloqueado">🔒</span>
+        </article>
+
+        <article class="module locked">
+          <div>
+            <span class="status">PRÓXIMAMENTE</span>
+            <h3>Estado</h3>
+            <p>Función bloqueada para una versión posterior.</p>
+          </div>
+          <span class="lock" aria-label="Bloqueado">🔒</span>
+        </article>
+
+        <article class="module locked">
+          <div>
+            <span class="status">PRÓXIMAMENTE</span>
+            <h3>Wallet · XG Coin</h3>
+            <p>Compras y funciones financieras no forman parte de esta beta.</p>
+          </div>
+          <span class="lock" aria-label="Bloqueado">🔒</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="beta" class="shell section beta-card">
+      <div>
+        <span class="eyebrow">BETA PÚBLICA</span>
+        <h2>0.1V es el comienzo.</h2>
+        <p>Esta versión está pensada para probar la experiencia real, detectar errores y mejorar Movix antes de ampliar el ecosistema.</p>
+      </div>
+      <div class="version">
+        <span>Versión</span>
+        <strong>0.1V</strong>
+        <small>Android · APK</small>
+      </div>
+    </section>
+
+    <section id="descargar" class="shell section download">
+      <div class="download-copy">
+        <span class="eyebrow">ANDROID</span>
+        <h2>Descarga Movix.</h2>
+        <p>El APK oficial aparecerá aquí cuando la compilación 0.1V quede aprobada para lanzamiento.</p>
+        <div class="download-meta">
+          <span>✓ Archivo oficial</span>
+          <span>✓ Versión identificada</span>
+          <span>✓ Hash de verificación al publicar</span>
+        </div>
+      </div>
+      <div class="download-box">
+        <div class="android">◖◗</div>
+        <strong>MOVIX 0.1V</strong>
+        <span>Android APK</span>
+        <a id="apkButton" class="btn primary disabled" href="/downloads/Movix-0.1V.apk" aria-disabled="true">Disponible el 22/09</a>
+        <small id="apkNote">El botón se habilitará cuando el APK final sea publicado.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <div class="brand footer-brand"><span class="brand-mark">∞</span><span>MOVIX</span></div>
+    <p>Personas · Ideas · Proyectos · Oportunidades</p>
+    <p class="domain">movix.red</p>
+  </footer>
+
+  <script src="/app.js"></script>
 </body>
 </html>
